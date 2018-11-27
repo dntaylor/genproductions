@@ -1,5 +1,5 @@
 for h in 125 300 750; do
-    for a in 5 9 15; do
+    for a in 5 9 15 21; do
         mkdir -p vbfh01_M${h}_Toa01a01_M${a}_Tomumutautau
         cp vbfh01_MYYY_Toa01a01_MXX_Tomumutautau/vbfh01_MYYY_Toa01a01_MXX_Tomumutautau_customizecards.dat vbfh01_M${h}_Toa01a01_M${a}_Tomumutautau/vbfh01_M${h}_Toa01a01_M${a}_Tomumutautau_customizecards.dat
         sed -i -e "s/XX/${a}/g" vbfh01_M${h}_Toa01a01_M${a}_Tomumutautau/vbfh01_M${h}_Toa01a01_M${a}_Tomumutautau_customizecards.dat
